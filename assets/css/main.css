@@ -68,16 +68,19 @@ ul.nav.navbar-nav.col-xs-12{
     height: 700px;
     
 }
-.move{
-  
-    object-fit: cover;
-}
+
 footer{
     width: 50%;
     margin: 0 auto;
 }
 
 
+.img-styling{
+      
+    object-fit: cover;
+    height: 400px;
+    width: 100%;
+}
 @media(min-width: 768px){
     
     
@@ -104,6 +107,7 @@ footer{
 }
     .pix{
         height: 800px;
+        
     }
     
     input::-webkit-input-placeholder{
