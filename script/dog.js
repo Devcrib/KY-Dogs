@@ -18,7 +18,7 @@ button.addEventListener('click', () => {
         if (dogFeed.readyState === 4) {
             var dogresult = JSON.parse( dogFeed.responseText );
             console.log(dogresult);
-            for (let i = 0; i < 9; i++) {
+            for (let i = 0; i < 6; i++) {
                 let picz = document.createElement('div');
                 picz.classList.add('col-md-4');
 

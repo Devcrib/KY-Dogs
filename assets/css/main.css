@@ -21,6 +21,7 @@ body,html{
 @media(max-width: 767px){
    #search{
         text-align: center;
+	   width:30%;
     }
 
 

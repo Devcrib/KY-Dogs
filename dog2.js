@@ -1,7 +1,7 @@
-var input = document.getElementById("dogs");
+var input1 = document.querySelector("#search input");
 
 var main = () =>{
-	var awesomplete = new Awesomplete(input, {
+	var awesomplete = new Awesomplete(input1, {
 		minChars: 1,
 		//maxItems:
 		autoFirst: true
