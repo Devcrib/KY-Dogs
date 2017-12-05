@@ -1,119 +1,112 @@
-body,html{
+body,
+html {
     padding: 0;
     margin: 0;
 }
 
-
-#home{
+#home {
     display: inline-block;
-    
-}
-
-.nav {
-	
 }
 
 #myNavbar {
-	width: inherit;
+    width: inherit;
 }
 
+.pix {
+    padding-top: 20px !important;
+}
 
-@media(max-width: 767px){
-   #search{
-        text-align: center;
-	   width:30%;
-    }
-
-
-    #sort{
-        text-align: center;
-    } 
-    
-    #home{
+@media(max-width: 767px) {
+    #sort {
         text-align: center;
     }
-    
-    input, select{
-    width: 100%;
-    margin: 5px 0px;
-           min-height: 30px;
+    #home {
+        text-align: center;
+    }
+    input,
+    select {
+        width: 100%;
+        margin: 5px 0px;
+        min-height: 30px;
         border: none;
-        background: rgb(30,100,150);
+        background: rgb(30, 100, 150);
         color: white !important;
         font-family: sans-serif;
         text-transform: capitalize;
-     border-radius: 2px;
+        border-radius: 2px;
         font-weight: 700;
-}
-
-    
-    input::-webkit-input-placeholder{
+    }
+    input::-webkit-input-placeholder {
         color: white;
         text-align: center;
     }
-
-    
 }
-ul.nav.navbar-nav.col-xs-12{
+
+ul.nav.navbar-nav.col-xs-12 {
     margin: 0;
     padding: 0;
 }
-.blue-color{
+
+.blue-color {
     background-color: dodgerblue!important;
     background-image: unset;
     border: 0;
     border-radius: 0;
-    
-}
-.pix{
-    height: 700px;
-    
 }
 
-footer{
+.pix {
+    height: 700px;
+}
+
+footer {
     width: 50%;
     margin: 0 auto;
 }
 
-
-.img-styling{
-      
+.img-styling {
     object-fit: cover;
     height: 400px;
     width: 100%;
 }
-@media(min-width: 768px){
-    
-    
-   #search{
+
+@media(min-width: 768px) {
+    #search {
         text-align: center;
     }
-
-
-    #sort{
+    #sort {
         text-align: right;
-    } 
-    
-    input, select{
-    width: 50%;
+    }
+    input,
+    select {
+        width: 50%;
         min-height: 30px;
         border: none;
-        background: rgb(30,100,150);
+        height: 30px !important;
+        background: rgb(30, 100, 150);
         color: white !important;
         font-family: sans-serif;
         text-transform: capitalize;
-    margin: 10px 0px 0px;
+        margin: 10px 0px 0px;
         border-radius: 2px;
         font-weight: 700;
-}
-    .pix{
-        height: 800px;
-        
     }
-    
-    input::-webkit-input-placeholder{
+    .pix {
+        height: 800px;
+    }
+    input::-webkit-input-placeholder {
         color: white;
         text-align: center;
     }
+}
 
+input[placeholder='search'] {
+    width: 100% !important;
+}
+
+.search-button {
+    background: none;
+    border: none;
+    color: white;
+    background: #333;
+    height: 30px;
 }
