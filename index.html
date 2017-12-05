@@ -1,23 +1,80 @@
 <!DOCTYPE html>
+
+
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <style>
-        img{
-            width: 100px;
-            height: 100px;
-        }
-    </style>
-</head>
-<body>
 
-    <!-- <input type="text">
-    <img src="" alt=""> -->
-    <!-- <button></button> -->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Dogs</title>
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/js/jquery-3.2.1.min.js">
+        <link rel="stylesheet" href="assets/css/bootstrap-theme.min.css">
+        <link rel='stylesheet' href='assets/css/main.css'>
+        <link rel="stylesheet" href="awesomplete.css">
+        <script src="jquery-2.2.4.min.js"></script>
 
-    <script src="script/dog.js"></script>
-</body>
+    </head>
+
+    <body>
+
+
+
+        <nav class="navbar navbar-inverse blue-color">
+            <div class="container-fluid">
+                <div class=" col-xs-12">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span> 
+                </button>
+
+
+
+                    <div class="collapse navbar-collapse col-xs-12" id="myNavbar">
+                        <ul class="nav navbar-nav col-xs-12">
+                            <li class="col-xs-12 col-sm-4 " id='home'>
+                                <select>
+                            <option hidden><a href="dogs.html">HOME</a></option>    
+                            <option><a href="">favourites</a></option>     
+                            </select>
+                            </li>
+
+                            <li class="col-xs-12 col-sm-4 " id="search">
+                                <input type="text" placeholder="search">
+                                <button>Search</button>
+                            </li>
+
+
+                            <li class="col-xs-12 col-sm-4 " id="sort">
+                                <select>
+                    <option hidden ><a href="">sort by</a></option>
+                     <option><a href="">Name(A-Z)</a></option>
+                      <option><a href="">Name(Z-A)</a></option>
+
+                        </select>
+                            </li>
+
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="pix">
+<h2>Type in ther search box, to look for a dog.</h2>
+        </div>
+
+
+        <script src="assets/js/jquery-3.2.1.min.js"></script>
+        <script src="assets/js/bootstrap.js"></script>
+        <script src="assets/css/bootstrap.min.css"></script>
+
+        <script src="awesomplete.js"></script>
+        <script src="dog2.js"></script>
+        <script src="script/dog.js"></script>
+
+    </body>
+
 </html>
